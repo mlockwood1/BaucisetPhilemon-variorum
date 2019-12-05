@@ -10,8 +10,8 @@
       <publicationStmt>
         <p>Publication Information</p>
       </publicationStmt>
-     
-      
+
+
       <sourceDesc>
         <listWit>
           <witness xml:id="Δ">
@@ -36,7 +36,7 @@
                     <p> Includes folios 1-119, written on parchment, 310 x 175 mm. </p>
                     <handDesc>
                       <handNote xml:id="FSMc"><abbr type="siglum">M <hi rend="superscript">c</hi>
-                      </abbr>This interpolating hand of M is responsible for at least 3 orthographical variants, 1 lexical, 1 addition 
+                      </abbr>This interpolating hand of M is responsible for at least 3 orthographical variants, 1 lexical, 1 addition
                         2 omissions, and 3 corrections.</handNote>
                       <handNote xml:id="FSM2c"><abbr type="siglum">M <hi rend="superscript">2c</hi>
                       </abbr>An alternate verse of 693, that is 693a-b, is inserted into this manuscript
@@ -46,8 +46,8 @@
                   </physDesc>
                 </msDesc>
               </witness>
-              
-                        
+
+
               <witness xml:id="NPL" n="Naples IV F 3">
                 <abbr type="siglum">N</abbr>
                 <name>Naples IV.F.3</name>
@@ -82,7 +82,7 @@
                   </physDesc>
                 </msDesc>
               </witness>
-             
+
               <witness xml:id="VUB" n="Vatican City 341">
                 <name>Vatican City Urbinas lat. 341</name>
                 <abbr type="siglum">U</abbr>
@@ -105,7 +105,7 @@
                       287.</p>
                     <handDesc>
                       <handNote xml:id="VUB2c"><abbr type="siglum">U <hi rend="superscript">c</hi>
-                      </abbr>The second interpolating hand of U is responsible for creating 1 orthographical variant 
+                      </abbr>The second interpolating hand of U is responsible for creating 1 orthographical variant
                         and correcting a lexical variant.</handNote>
                       <handNote xml:id="VUB3c"><abbr type="siglum">U <hi rend="superscript">3c</hi>
                       </abbr>This interpolating hand is responsible for one orthographical and one lexical variant, and is thought to
@@ -114,7 +114,7 @@
                   </physDesc>
                 </msDesc>
               </witness>
-        
+
              <witness xml:id="SPY" n="Speyer">
                 <abbr type="siglum">S</abbr>
                 <name>Spirensis</name>
@@ -147,9 +147,9 @@
           </witness>
         </listWit>
       </sourceDesc>
-       
+
       <sourceDesc>
-          <listWit>  
+          <listWit>
             <witness xml:id="Σ">
               <abbr type="siglum">Σ</abbr>archetypus codicum PGLTB <listWit>
                 <witness xml:id="PAR" n="Paris 8001">
@@ -175,7 +175,7 @@
                     </physDesc>
                   </msDesc>
                 </witness>
-                
+
                 <witness xml:id="LAR" n="Florence 36.12">
                   <abbr type="siglum">L</abbr>
                   <name>Florence Plut. 36.12</name>
@@ -197,11 +197,11 @@
                         </handNote>
                       </handDesc>
                     </physDesc>
-                  </msDesc>  
+                  </msDesc>
                 </witness>
-                
-              
-                
+
+
+
                 <witness xml:id="VPT" n="Vatican City Palatine">
                   <abbr type="siglum">P</abbr>
                   <name>Vatican City Pal. lat. 1669</name>
@@ -213,7 +213,7 @@
                       <idno>Pal.lat.1669</idno>
                     </msIdentifier>
                    <msContents>
-                     <p>Contains verses 1.1-15.879 and the narrations of Lactantius, in the form of red-ink titles, 
+                     <p>Contains verses 1.1-15.879 and the narrations of Lactantius, in the form of red-ink titles,
                        are added in the margins. </p>
                    </msContents>
                     <physDesc>
@@ -226,9 +226,9 @@
                     </physDesc>
                   </msDesc>
                 </witness>
-                
-               
-                
+
+
+
                 <witness xml:id="TGR" n="Munich">
                   <abbr type="siglum">T</abbr>
                   <name>Munich clm 29208 + Cgm 4286</name>
@@ -251,8 +251,8 @@
                       </physDesc>
                   </msDesc>
                 </witness>
-                 
-                
+
+
                 <witness xml:id="G" n="Florence San Marco 223">
                   <abbr type="siglum">G</abbr>
                   <name>Florence San Marco 223</name>
@@ -267,7 +267,7 @@
                       <p>Contains verses 1.1-15.879, apart from lacking one quaternio that contains 8.548-10.428. </p>
                     </msContents>
                     <physDesc>
-                      <p>Made up of two manuscripts comprising folios 2-56 written on parchment in two columns of 55 or 57 lines. Measures mm. 340 x 230. 
+                      <p>Made up of two manuscripts comprising folios 2-56 written on parchment in two columns of 55 or 57 lines. Measures mm. 340 x 230.
                         Contains the narrations of Lactantius, and followed by the Metamorphoses are Ovid's Nux, Medicamina Faciei Femineae and Tristia by other hands. </p>
                       <handDesc>
                         <handNote xml:id="Gc"><abbr type="siglum">G <hi rend="superscript">c</hi>
@@ -283,7 +283,7 @@
             </witness>
           </listWit>
       </sourceDesc>
-     
+
 
     </fileDesc>
   </teiHeader>
