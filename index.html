@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>My project</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
+    <link rel="stylesheet" href="css/style.css" media="all" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" media="all" />
+    <script src="js/CETEI.js"></script>
+    <script src="js/appcrit.js"></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script
+			  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			  crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <div id="TEI"></div>
+
+    <script>
+      var CETEIcean = new CETEI()
+      CETEIcean.getHTML5("data/variants.xml", function(data) {
+        document.getElementById("TEI").appendChild(data)
+        appcrit();
+      })
+    </script>
+  </body>
+
+</html>
