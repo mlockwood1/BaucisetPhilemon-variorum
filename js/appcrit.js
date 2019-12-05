@@ -178,7 +178,7 @@ var appcrit = function () {
 		var source = "";
 		if ($(elt).attr("wit")) {
 			$(elt).attr("wit").split(/ /).forEach(function(val) {
-				wit += "<span class=\"ref\" data-id=\"" + $(elt).attr("id") + "\" data-ref=\"" + val + "\">" + $(escapeID(val)).attr("n") + "</span>";
+				wit += "<span class=\"ref\" data-id=\"" + $(elt).attr("id") + "\" data-ref=\"" + val + "\">" + $(escapeID(val)).attr("n") + " </span>";
 				if ($(escapeID(val)).length == 0) {
 					console.log("Can't find " + val);
 				}
@@ -186,13 +186,13 @@ var appcrit = function () {
 		}
 		if ($(elt).attr("source")) {
 			$(elt).attr("source").split(/ /).forEach(function(val) {
-				source += "<span class=\"ref\" data-id=\"" + $(elt).attr("id") + "\" data-ref=\"" + val + "\">" + $(escapeID(val)).attr("n") + "</span>";
+				source += "<span class=\"ref\" data-id=\"" + $(elt).attr("id") + "\" data-ref=\"" + val + "\">" + $(escapeID(val)).attr("n") + " </span>";
 				/*if ($(escapeID(val)).length == 0) {
 					console.log("Can't find " + val);
 				}*/
 			});
 		}
-		$(elt).after(" <span class=\"source\">" + wit + " " + source + "</span>");
+		$(elt).after(" <span class=\"source\">" + wit + " " + source + " </span>");
 	}
 
 	// Pull content into @copyOf elements
@@ -227,7 +227,7 @@ var appcrit = function () {
 			}
 			var l = $(elt).find("tei-lem").find("tei-l");
 			if (l.length == 0) {
-				l = $(elt).next("tei-l,tei-app");
+				l = $(elt).next("tei-l");
 			}
 			l.first().append("<button id=\"button-" + $(elt).attr("id") + "\" title=\"\" class=\"app\" data-app=\"" + $(elt).attr("id") + "\">…</button>");
 			app.find("tei-lem").remove();

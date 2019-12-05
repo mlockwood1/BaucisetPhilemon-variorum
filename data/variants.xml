@@ -3,20 +3,19 @@
             type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
-      <!--write paragraph on syllabus doc about your plan for next block of work, and reflect-->
-      <titleStmt>
+            <titleStmt>
         <title>Tracking Text Variants in Book VIII of Ovid's Metamorphoses</title>
       </titleStmt>
       <publicationStmt>
         <p>Publication Information</p>
       </publicationStmt>
-
-
+     
+      
       <sourceDesc>
         <listWit>
           <witness xml:id="Δ">
             <abbr type="siglum">Δ</abbr>archetypus codicum MNUS <listWit>
-              <witness xml:id="FSM" n="Florence San Marco 225">
+              <witness xml:id="FSM" n="M"> <label>M</label>
                 <abbr type="siglum">M</abbr>
                 <name>Florence San Marco 225</name>
                 <date>saec. xi</date>
@@ -35,10 +34,10 @@
                   <physDesc>
                     <p> Includes folios 1-119, written on parchment, 310 x 175 mm. </p>
                     <handDesc>
-                      <handNote xml:id="FSMc"><abbr type="siglum">M <hi rend="superscript">c</hi>
-                      </abbr>This interpolating hand of M is responsible for at least 3 orthographical variants, 1 lexical, 1 addition
+                      <handNote xml:id="FSMc" n="FSMc"><abbr type="siglum">M <hi rend="superscript">c</hi>
+                      </abbr>This interpolating hand of M is responsible for at least 3 orthographical variants, 1 lexical, 1 addition 
                         2 omissions, and 3 corrections.</handNote>
-                      <handNote xml:id="FSM2c"><abbr type="siglum">M <hi rend="superscript">2c</hi>
+                      <handNote xml:id="FSM2c" n="FSM2c"><abbr type="siglum">M <hi rend="superscript">2c</hi>
                       </abbr>An alternate verse of 693, that is 693a-b, is inserted into this manuscript
                           by an interpolating hand. At 698, this hand suggests lexical variations on the first
                           half of the verse in the margin.</handNote>
@@ -46,9 +45,9 @@
                   </physDesc>
                 </msDesc>
               </witness>
-
-
-              <witness xml:id="NPL" n="Naples IV F 3">
+              
+                        
+              <witness xml:id="NPL" n="N"><label>N</label>
                 <abbr type="siglum">N</abbr>
                 <name>Naples IV.F.3</name>
                 <date>saec. xi or xii</date>
@@ -71,19 +70,19 @@
                       1.198-255 and 2.121-81, were destroyed, and supplied later by a fourteenth
                       century hand. </p>
                     <handDesc>
-                      <handNote xml:id="NPLc"><abbr type="siglum">N <hi rend="superscript">c</hi>
+                      <handNote xml:id="NPLc" n="NPLc"><abbr type="siglum">N <hi rend="superscript">c</hi>
                       </abbr>Multiple interpolating hands of N are responsible for at least 2 orthographical variants,
                         3 morphological, 2 lexical, as well as 3 corrections.
                         Lines 652-655a are added in the margin by a later
                           manuscript hand, just as 693a-b are.</handNote>
-                      <handNote xml:id="NPL2c"> <abbr type="siglum">N <hi rend="superscript">2c&gt;</hi>
+                      <handNote xml:id="NPL2c" n="NPL2c"> <abbr type="siglum">N <hi rend="superscript">2c&gt;</hi>
                       </abbr>This later interpolating hand of N is responsible for correcting 1 orthographical variant.</handNote>
                     </handDesc>
                   </physDesc>
                 </msDesc>
               </witness>
-
-              <witness xml:id="VUB" n="Vatican City 341">
+             
+              <witness xml:id="VUB" n="U"><label>U</label>
                 <name>Vatican City Urbinas lat. 341</name>
                 <abbr type="siglum">U</abbr>
                 <date>saec. xi or xii</date>
@@ -104,18 +103,18 @@
                     <p>Each of the 183 folios contains 37 lines on parchment measuring mm. 310 x
                       287.</p>
                     <handDesc>
-                      <handNote xml:id="VUB2c"><abbr type="siglum">U <hi rend="superscript">c</hi>
-                      </abbr>The second interpolating hand of U is responsible for creating 1 orthographical variant
+                      <handNote xml:id="VUB2c" n="VUB2c"><abbr type="siglum">U <hi rend="superscript">c</hi>
+                      </abbr>The second interpolating hand of U is responsible for creating 1 orthographical variant 
                         and correcting a lexical variant.</handNote>
-                      <handNote xml:id="VUB3c"><abbr type="siglum">U <hi rend="superscript">3c</hi>
+                      <handNote xml:id="VUB3c" n="VUB3c"><abbr type="siglum">U <hi rend="superscript">3c</hi>
                       </abbr>This interpolating hand is responsible for one orthographical and one lexical variant, and is thought to
                       have created these variants later than the first interpolating hand of U.</handNote>
                             </handDesc>
                   </physDesc>
                 </msDesc>
               </witness>
-
-             <witness xml:id="SPY" n="Speyer">
+        
+             <witness xml:id="SPY" n="S"><label>S</label>
                 <abbr type="siglum">S</abbr>
                 <name>Spirensis</name>
                 <date>saec. xi</date>
@@ -135,7 +134,7 @@
                       <p>This seventh quaternio includes 8 parchment folios with two columns of 41
                         lines each, measuring mm. 325 x 230. </p>
                       <handDesc>
-                        <handNote xml:id="SPY2"><abbr type="siglum">S <hi rend="superscript">2</hi>
+                        <handNote xml:id="SPY2" n="SPY2"><abbr type="siglum">S <hi rend="superscript">2</hi>
                         </abbr>Line 693a-b is added in by this interpolating hand, just as in M and N. This hand is also responsible for one lexical
                           variant in the text.
                             </handNote>
@@ -147,12 +146,12 @@
           </witness>
         </listWit>
       </sourceDesc>
-
+       
       <sourceDesc>
-          <listWit>
+          <listWit>  
             <witness xml:id="Σ">
               <abbr type="siglum">Σ</abbr>archetypus codicum PGLTB <listWit>
-                <witness xml:id="PAR" n="Paris 8001">
+                <witness xml:id="PAR" n="B"><label>B</label>
                   <abbr type="siglum">B</abbr>
                   <name>Paris lat. 8001</name>
                   <date>saec. xii or xiii</date>
@@ -169,14 +168,14 @@
                       <p>Comprises folios 1-16 and 23-69 on parchment, with 6 additional leaves of commentary inserted after folio 16.
                       The verses are in two columns of 48 lines each, measuring mm. 265 x 190.</p>
                       <handDesc>
-                        <handNote xml:id="PARc"><abbr type="siglum">B <hi rend="superscript">c</hi>
+                        <handNote xml:id="PARc" n="PARc"><abbr type="siglum">B <hi rend="superscript">c</hi>
                         </abbr>This hand is responsible for correcting one orthographical and one morphological variant in the text.</handNote>
                       </handDesc>
                     </physDesc>
                   </msDesc>
                 </witness>
-
-                <witness xml:id="LAR" n="Florence 36.12">
+                
+                <witness xml:id="LAR" n="L"><label>L</label>
                   <abbr type="siglum">L</abbr>
                   <name>Florence Plut. 36.12</name>
                   <date>saec. xi or xii</date>
@@ -197,12 +196,12 @@
                         </handNote>
                       </handDesc>
                     </physDesc>
-                  </msDesc>
+                  </msDesc>  
                 </witness>
-
-
-
-                <witness xml:id="VPT" n="Vatican City Palatine">
+                
+              
+                
+                <witness xml:id="VPT" n="P"><label>P</label>
                   <abbr type="siglum">P</abbr>
                   <name>Vatican City Pal. lat. 1669</name>
                   <date>saec. xi</date>
@@ -213,23 +212,23 @@
                       <idno>Pal.lat.1669</idno>
                     </msIdentifier>
                    <msContents>
-                     <p>Contains verses 1.1-15.879 and the narrations of Lactantius, in the form of red-ink titles,
+                     <p>Contains verses 1.1-15.879 and the narrations of Lactantius, in the form of red-ink titles, 
                        are added in the margins. </p>
                    </msContents>
                     <physDesc>
                       <p>Comprises 64 folios with two columns of 48 or 49 lines each on parchment, measuring mm. 315 x 240. Readings
                       in folios 14-24 are missing or difficult to discern in many place.</p>
                       <handDesc>
-                        <handNote xml:id="VPTc"><abbr type="siglum">P <hi rend="superscript">c</hi>
+                        <handNote xml:id="VPTc" n="VPTc"><abbr type="siglum">P <hi rend="superscript">c</hi>
                         </abbr>This interpolating hand is reposnible for at least one morphological variant.</handNote>
                       </handDesc>
                     </physDesc>
                   </msDesc>
                 </witness>
-
-
-
-                <witness xml:id="TGR" n="Munich">
+                
+               
+                
+                <witness xml:id="TGR" n="T"><label>T</label>
                   <abbr type="siglum">T</abbr>
                   <name>Munich clm 29208 + Cgm 4286</name>
                   <date>saec.xi</date>
@@ -245,15 +244,15 @@
                       <physDesc>
                         <p>Two leaf fragments from a once complete manuscipt written in the Gothic minuscule style. </p>
                       <handDesc>
-                        <handNote xml:id="TGR2"> <abbr type="siglum">T <hi rend="superscript">2</hi>
+                        <handNote xml:id="TGR2" n="TGR2"> <abbr type="siglum">T <hi rend="superscript">2</hi>
                         </abbr>Responsible for at least one lexical variant within the text.</handNote>
                       </handDesc>
                       </physDesc>
                   </msDesc>
                 </witness>
-
-
-                <witness xml:id="G" n="Florence San Marco 223">
+                 
+                
+                <witness xml:id="G" n="G"><label>G</label>
                   <abbr type="siglum">G</abbr>
                   <name>Florence San Marco 223</name>
                   <date>saec. xi</date>
@@ -267,12 +266,12 @@
                       <p>Contains verses 1.1-15.879, apart from lacking one quaternio that contains 8.548-10.428. </p>
                     </msContents>
                     <physDesc>
-                      <p>Made up of two manuscripts comprising folios 2-56 written on parchment in two columns of 55 or 57 lines. Measures mm. 340 x 230.
+                      <p>Made up of two manuscripts comprising folios 2-56 written on parchment in two columns of 55 or 57 lines. Measures mm. 340 x 230. 
                         Contains the narrations of Lactantius, and followed by the Metamorphoses are Ovid's Nux, Medicamina Faciei Femineae and Tristia by other hands. </p>
                       <handDesc>
-                        <handNote xml:id="Gc"><abbr type="siglum">G <hi rend="superscript">c</hi>
+                        <handNote xml:id="Gc" n="Gc"><abbr type="siglum">G <hi rend="superscript">c</hi>
                         </abbr>This interpolating hand is responsible for at least one orthographical variant.</handNote>
-                        <handNote xml:id="G3c"> <abbr type="siglum">G <hi rend="superscript">3c</hi>
+                        <handNote xml:id="G3c" n="G3c"> <abbr type="siglum">G <hi rend="superscript">3c</hi>
                         </abbr>These hands represent interpolations and variants added later. In some spots, a correction
                           has fixed an orthographical variant.</handNote>
                       </handDesc>
@@ -283,12 +282,13 @@
             </witness>
           </listWit>
       </sourceDesc>
-
+     
 
     </fileDesc>
   </teiHeader>
   <text>
     <body>
+      <ab>
       <l n="611">Amnis ab his tacuit. factum mirabile cunctos</l>
       <l n="612">mouerat; inridet credentes, utque deorum</l>
       <l n="613">spretor erat mentisque ferox, Ixione natus:</l>
@@ -479,58 +479,104 @@
       <l n="690">impia" dixerunt; "uobis immunibus huius"</l>
       <l n="691">esse mali dabitur. modo uestra relinquite tecta</l>
       <l n="692">ac nostros comitate gradus et in ardua montis</l>
+     
       <app xml:id="d1e1122" type="line-omission">
         <lem wit="#FSM #SPY #NPL" xml:id="l693" exclude="#l693a #l693b">
           <l n="693">ite simul. parent ambo baculisque leuati</l>
         </lem>
         <rdg xml:id="d1e1130" wit="#FSM2c #SPY2 #NPLc #VUB #PAR #G #LAR #VPT" ana="#omission"/>
       </app>
+     
       <app xml:id="d1e1133" type="line-omission">
         <rdg wit="#FSM2c #SPY2 #NPLc #VUB #PAR #G #LAR #VPT" xml:id="l693a" exclude="#l693 #l693b">
           <l n="693a">ite simul. parent et dis praeeuntibus ambo</l>
         </rdg>
         <rdg xml:id="d1e1141" wit="#FSM #SPY #NPL" ana="#omission"/>
       </app>
+     
       <app xml:id="d1e1145" type="line-omission">
         <rdg wit="#FSM2c #SPY2 #NPLc #VUB #PAR #G #LAR #VPT" xml:id="l693b" exclude="#l693 #l693a">
           <l n="693b">membra leuant baculis tardique senilibus annis</l>
         </rdg>
         <rdg xml:id="d1e1153" wit="#FSM #SPY #NPL" ana="#omission"/>
+      
       </app>
       <l n="694">nituntur longo uestigia ponere cliuo.</l>
       <l n="695">tantum aberant summo quantum semel ire sagitta</l>
       <l n="696">missa potest; flexere oculos et mersa palude</l>
-      <app xml:id="d1e1165">
-        <lem xml:id="d1e1167" wit="#FSM #NPL #SPY #VUB #LAR #VPT #TGR">cetera prospiciunt, tantum sua tecta
-          manere</lem>
-        <rdg xml:id="d1e1170" wit="#FSM2c #G" ana="#lexical">mersa uident queruntque sue pia culmina uille</rdg>
-        <rdg xml:id="d1e1173" wit="#PAR" ana="#lexical">mersa uident plerumque sue pia culmina uille</rdg>
+      
+      <app xml:id="dl2847">
+        <lem wit="#FSM #NPL #SPY #VUB #LAR #VPT" xml:id="l697" exclude="#l697a #l697b">
+          <l n="697">cetera prospiciunt, tantum sua tecta manere</l></lem>
+     <rdg xml:id="dl372" wit="#PAR #G #FSM2c"/>
       </app>
-      <app xml:id="d1e1177">
-        <lem xml:id="d1e1179" wit="#FSM #NPL #SPY #VUB #LAR #VPT">dumque ea mirantur, dum deflent fata suorum</lem>
-        <rdg xml:id="d1e1182" wit="#FSM2c" ana="#lexical">sola loco stabant. dum deflent fata suorum</rdg>
-        <rdg xml:id="d1e1185" wit="#PAR" ana="#lexical">dumque loco stabant. dum plangunt fata suorum</rdg>
-        <rdg xml:id="d1e1188" wit="#G" ana="#lexical">sola loco stabant. cum deflent fata suorum</rdg>
+      
+      <app xml:id="dl37846">
+        <rdg wit="#FSM2c #G" xml:id="l697a" exclude="#l697 #l697b">
+      <l n="697a">mersa vident queruntque sue pia culmina uille</l>
+        </rdg>
+        <rdg xml:id="dl2846" wit="#PAR #FSM #LAR #NPL #VPT #SPY #VUB"/>
       </app>
+      
+      
+    <app xml:id="dl8264">
+      <rdg wit="#PAR" xml:id="l697b" exclude="#l697 #l697a">
+    <l n="697b">mersa vident plerumque sue pia culmina uille</l>
+        </rdg>
+      <rdg xml:id="dl3828" wit="#FSM2c #FSM #LAR #G #NPL #VUB #SPY #VPT"/>
+      </app>
+     
+       
+      
+    <app xml:id="d1e1177">
+        <lem xml:id="l698" wit="#FSM #NPL #SPY #VUB #LAR #VPT" exclude="#l698a #l698b #l698c">
+         <l n="698"> dumque ea mirantur, dum deflent fata suorum</l></lem>
+       <rdg xml:id="dl9243" wit="#FSM2c #PAR #G"/>
+    </app>
+      
+      <app>
+        <rdg wit="#FSM2c" xml:id="l698a" exclude="#l698 #l698b #l698c">
+          <l n="698a">sola loco stabant. dum deflent fata suorum</l>
+        </rdg>
+        <rdg xml:id="dl92474" wit="#PAR #FSM #VUB #SPY #LAR #VPT #G #SPY #NPL"/>
+      </app>
+      
+      <app>
+        <rdg wit="#PAR" xml:id="l698b" exclude="#l698 #l698a #l698c">
+          <l n="698b">sola loco stabant. dum plangunt fata suorum</l>
+        </rdg>
+        <rdg xml:id="dl9274" wit="#FSM2c #LAR #SPY #G #NPL #FSM #VUB #VPT"/>
+      </app>
+      
+      <app>
+        <rdg wit="#G" xml:id="l698c" exclude="#l698 #l698a #l698b">
+          <l n="698c">sola loco stabant. cum deflent fata suorum</l>
+        </rdg>
+        <rdg xml:id="dl9346" wit="#LAR #VUB #FSM2c #FSM #SPY #VPT #NPL #PAR #VUB #VPT"/> 
+      </app>
+      
+      
+      
       <l n="699">illa uetus dominis etiam casa parua duobus</l>
+     
       <l n="700">uertitur in templum; furcas subiere columnae,</l>
-      <l>stramina flauescunt <app xml:id="d1e1201">
+      <l n="701">stramina flauescunt<app xml:id="d1e1201">
           <lem xml:id="d1e1203" wit="#FSM #NPL #VUB #G #VPT">aurataque</lem>
           <rdg xml:id="d1e1206" wit="#SPY #PAR" ana="#lexical">adopertaque</rdg>
           <rdg xml:id="d1e1209" wit="#VUB3c #LAR" ana="#lexical">ornataque</rdg>
-        </app> tecta uidentur</l>
-      <l>caelataeque fores adopertaque marmore tellus.</l>
-      <l>talia <app xml:id="d1e1219">
+        </app>tecta uidentur</l>
+      <l n="702">caelataeque fores adopertaque marmore tellus.</l>
+      <l n="703">talia <app xml:id="d1e1219">
           <lem xml:id="d1e1221" wit="#FSM #SPY #PAR #G #LAR">tum</lem>
           <rdg xml:id="d1e1224" wit="#VUB #VPT" ana="#morphological">cum</rdg>
           <rdg xml:id="d1e1227" wit="#NPL" ana="#morphological">dum</rdg>
         </app> placido Saturnius edidit ore:</l>
-      <l>"dicite, iuste senex et femina coniuge iusto</l>
+      <l n="704">"dicite, iuste senex et femina coniuge iusto</l>
       <l n="705">digna, quid optetis." cum Baucide pauca locutus</l>
-      <l>iudicium superis aperit commune Philemon:</l>
-      <l>"esse sacerdotes delubraque uestra tueri</l>
-      <l>poscimus, et quoniam concordes egimus annos,</l>
-      <l>auferat hora duos eadem, nec coniugis umquam</l>
+      <l n="706">iudicium superis aperit commune Philemon:</l>
+      <l n="707">"esse sacerdotes delubraque uestra tueri</l>
+      <l n="708">poscimus, et quoniam concordes egimus annos,</l>
+      <l n="709">auferat hora duos eadem, nec coniugis umquam</l>
       <l n="710">busta meae uideam neu sim <app xml:id="d1e1253">
           <lem xml:id="d1e1255" wit="#FSM #NPL #SPY #PAR #G #LAR">tumulandus</lem>
           <rdg xml:id="d1e1258" wit="#VUB #VPT" ana="#morphological">tumulatus</rdg>
@@ -544,10 +590,10 @@
           <rdg xml:id="d1e1282" wit="#NPLc" ana="#lexical">inciperent</rdg>
         </app> casus, frondere Philemona Baucis,</l>
       <l n="715">Baucida conspexit senior frondere Philemon.</l>
-      <l>iamque super geminos crescente cacumine uultus</l>
-      <l>mutua, dum licuit, reddebant dicta "uale" que</l>
-      <l>"o coniunx" dixere simul, simul abdita texit</l>
-      <l>ora frutex. ostendit adhuc Thyneius illic</l>
+      <l n="716">iamque super geminos crescente cacumine uultus</l>
+      <l n="717">mutua, dum licuit, reddebant dicta "uale" que</l>
+      <l n="718">"o coniunx" dixere simul, simul abdita texit</l>
+      <l n="719">ora frutex. ostendit adhuc Thyneius illic</l>
       <l n="720">incola de <app xml:id="d1e1305">
           <lem xml:id="d1e1307" wit="#FSM #NPL #SPY #PAR #G #LAR">gemino</lem>
           <rdg xml:id="d1e1310" wit="#VUB #VPT" ana="#orthographical">gemina</rdg>
@@ -555,9 +601,9 @@
           <lem xml:id="d1e1316" wit="#FSM #NPL #SPY #PAR #G #LAR">corpore</lem>
           <rdg xml:id="d1e1319" wit="#VUB #VPT" ana="#lexical">arbore</rdg>
         </app> truncos.</l>
-      <l>haec mihi non uani (neque erat cur fallere uellent)</l>
-      <l>narrauere senes; equidem pendentia uidi</l>
-      <l>serta super ramos ponensque recentia dixi:</l>
+      <l n="721">haec mihi non uani (neque erat cur fallere uellent)</l>
+      <l n="722">narrauere senes; equidem pendentia uidi</l>
+      <l n="723">serta super ramos ponensque recentia dixi:</l>
       <l n="724">"cura deum di <app xml:id="d1e1336">
           <lem xml:id="d1e1338" wit="#FSM2c #NPL #G #LAR #VPT">sunt</lem>
           <rdg xml:id="d1e1341" wit="#FSM #NPLc #VUB #PAR" ana="#morphological">sint</rdg>
@@ -565,9 +611,9 @@
           <lem xml:id="d1e1347" wit="#G #LAR">coluntur</lem>
           <rdg xml:id="d1e1350" wit="#FSM #NPL #SPY #VUB #PAR #VPT" ana="#morphological">colantur</rdg>
         </app>."</l>
+      </ab>
     </body>
-
-
+  
 
 
 
